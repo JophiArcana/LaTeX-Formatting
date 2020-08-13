@@ -646,10 +646,10 @@
             \declaretheorem[style=thmbluebox,numbered=no,name=Algorithm]{algorithm*}
             \declaretheorem[style=thmbluebox,parent=section,name=Algorithm]{secalgo}
             \ifrollingboxprob
-                \declaretheorem[style=thmgreenbox,sibling=theorem,name=Problem]{boxprob}
+                \declaretheorem[style=thmpurplebox,sibling=theorem,name=Problem]{boxprob}
                 \declaretheorem[style=thmredbox,sibling=theorem,name=Lemma]{lemma}
             \else
-                \declaretheorem[style=thmgreenbox,name=Problem]{boxprob}
+                \declaretheorem[style=thmpurplebox,name=Problem]{boxprob}
                 \declaretheorem[style=thmredbox,name=Lemma]{lemma}
             \fi
             \declaretheorem[style=thmpurplebox,numbered=no,name=Problem]{boxprob*}
@@ -675,7 +675,7 @@
                 \innercustomthm
             }{\endinnercustomthm}
 
-            \declaretheorem[style=thmgreenbox,name=Problem]{innercustomboxprob}
+            \declaretheorem[style=thmpurplebox,name=Problem]{innercustomboxprob}
             \newenvironment{customboxprob}[1]{
                 \renewcommand\theinnercustomboxprob{#1}
                 \innercustomboxprob
