@@ -652,7 +652,7 @@
             \declaretheorem[style=thminlineorangebox,name=Claim]{claim}
             \declaretheorem[style=thminlineorangebox,numbered=no,name=Claim]{claim*}
             \declaretheorem[style=thmblackbox,numbered=no,name=Remark]{remark}
-            \declaretheorem[style=thmblackbox,numbered=no,name=Note]{note}
+            \declaretheorem[style=thmblackbox,numbered=no,name=Definition]{note}
             \declaretheorem[style=thmblackbox,numbered=no,name=Fact]{fact}
             \declaretheorem[style=thmpurplebox,sibling=theorem,name=Definition]{definition}
             \declaretheorem[style=thmpurplebox,numbered=no,name=Definition]{definition*}
