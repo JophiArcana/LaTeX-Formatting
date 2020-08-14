@@ -295,7 +295,7 @@
 \ifcolorsecstyle
     \hypersetup{
         colorlinks,
-        citecolor=ForestGreen,
+        citecolor=RoyalPurple,
         filecolor=RubineRed,
         linkcolor=RoyalBlue,
         urlcolor=RubineRed
@@ -535,21 +535,21 @@
                 leftline=true,
                 topline=false,
                 bottomline=false,
-                linecolor=ForestGreen,
-                backgroundcolor=ForestGreen!5,
+                linecolor=RoyalPurple,
+                backgroundcolor=RoyalPurple!5,
                 nobreak=true,
             }
             \declaretheoremstyle[
-                headfont=\sffamily\bfseries\color{ForestGreen!70!black},
+                headfont=\sffamily\bfseries\color{RoyalPurple!70!black},
                 bodyfont=\normalfont,
                 spaceabove=2pt,
                 spacebelow=1pt,
-                mdframed={style=mdgreenbox},
+                mdframed={style=mdpurplebox},
                 %headpunct={ --- },
                 headpunct={\\[3pt]},
-            ]{thmgreenbox}
+            ]{thmpurplebox}
 
-            \mdfdefinestyle{mdgreenborder}{%
+            \mdfdefinestyle{mdpurpleborder}{%
                 linewidth=0.5pt,
                 skipabove=12pt,
                 frametitleaboveskip=5pt,
@@ -559,15 +559,15 @@
                 innertopmargin=4pt,
                 innerbottommargin=8pt,
                 nobreak=true,
-                backgroundcolor=ForestGreen!5,
-                linecolor=ForestGreen,
+                backgroundcolor=RoyalPurple!5,
+                linecolor=RoyalPurple,
             }
             \declaretheoremstyle[
-                headfont=\bfseries\color{ForestGreen},
-                mdframed={style=mdgreenborder},
+                headfont=\bfseries\color{RoyalPurple},
+                mdframed={style=mdpurpleborder},
                 headpunct={\\[3pt]},
                 postheadspace={0pt},
-            ]{thmgreenborder}
+            ]{thmpurpleborder}
 
             \mdfdefinestyle{mdlimebox}{%
                 skipabove=8pt,
