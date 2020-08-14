@@ -655,8 +655,8 @@
             \fi
             \declaretheorem[style=thmpurplebox,numbered=no,name=Problem]{boxprob*}
             \declaretheorem[style=thmredbox,numbered=no,name=Lemma]{lemma*}
-            \declaretheorem[style=thmgreenbox,parent=section,name=Problem]{secprob}
-            \declaretheorem[style=thmgreenborder,sibling=theorem,name=Example]{example}
+            \declaretheorem[style=thmpurplebox,parent=section,name=Problem]{secprob}
+            \declaretheorem[style=thmpurpleborder,sibling=theorem,name=Example]{example}
             \declaretheorem[style=thmlimeborder,numbered=no,name=Solution]{boxsol}
             \declaretheorem[style=thmlimeborder,numbered=no,name=Proof]{boxproof}
             \declaretheorem[style=thmredbox,numbered=no,name=Warning]{warning}
