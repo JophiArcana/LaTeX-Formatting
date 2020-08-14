@@ -588,6 +588,35 @@
                 backgroundcolor=Goldenrod!5,
                 linecolor=Goldenrod,
             }
+            
+            \mdfdefinestyle{mdredborder}{%
+                linewidth=0.5pt,
+                skipabove=12pt,
+                frametitleaboveskip=5pt,
+                frametitlebelowskip=0pt,
+                skipbelow=2pt,
+                frametitlefont=\bfseries,
+                innertopmargin=4pt,
+                innerbottommargin=8pt,
+                %                nobreak=true,
+                backgroundcolor=RubineRed!5,
+                linecolor=RubineRed,
+            }
+            
+            \mdfdefinestyle{mdpurpleborder}{%
+                linewidth=0.5pt,
+                skipabove=12pt,
+                frametitleaboveskip=5pt,
+                frametitlebelowskip=0pt,
+                skipbelow=2pt,
+                frametitlefont=\bfseries,
+                innertopmargin=4pt,
+                innerbottommargin=8pt,
+                %                nobreak=true,
+                backgroundcolor=RoyalPurple!5,
+                linecolor=RoyalPurple,
+            }
+            
             \declaretheoremstyle[
                 headfont=\bfseries\color{Goldenrod!70!black},
                 mdframed={style=mdlimeborder},
