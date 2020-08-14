@@ -223,8 +223,8 @@
     \end{center}
 }
 \newenvironment{moral}{%
-    \begin{mdframed}[linecolor=green!70!black]%
-    \bfseries\color{green!70!black}}%
+    \begin{mdframed}[linecolor=purple!70!black]%
+    \bfseries\color{purple!70!black}}%
 {\end{mdframed}}
 \DeclareMathOperator{\lcm}{lcm}
 \DeclareMathOperator{\cis}{cis}
@@ -401,8 +401,8 @@
         innertopmargin=4pt,
         innerbottommargin=8pt,
         %                nobreak=true,
-        %            backgroundcolor=ForestGreen!5,
-        %            linecolor=ForestGreen,
+        %            backgroundcolor=RoyalPurple!5,
+        %            linecolor=RoyalPurple,
     }
     \declaretheoremstyle[
         headfont=\bfseries,
@@ -455,6 +455,7 @@
                 linecolor=blue,
                 nobreak=true,
                 backgroundcolor=RoyalPurple!5,
+                linecolor=RoyalPurple,
             }
             \declaretheoremstyle[
                 headfont=\sffamily\bfseries\color{RoyalPurple},
@@ -527,7 +528,7 @@
                 headpunct={.\;},
             ]{thminlineorangebox}
 
-            \mdfdefinestyle{mdgreenbox}{%
+            \mdfdefinestyle{mdbox}{%
                 skipabove=8pt,
                 linewidth=2pt,
                 rightline=false,
