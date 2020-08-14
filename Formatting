@@ -669,7 +669,7 @@
                 \declaretheorem[style=thmredbox,name=Lemma]{lemma}
             \fi
             \declaretheorem[style=thmpurplebox,numbered=no,name=Problem]{boxprob*}
-            \declaretheorem[style=thmredborder,numbered=no,name=Description]{lemma*}
+            \declaretheorem[style=thmredbox,numbered=no,name=Description]{lemma*}
             \declaretheorem[style=thmpurpleborder,parent=section,name=Problem]{secprob}
             \declaretheorem[style=thmpurpleborder,sibling=theorem,name=Example]{example}
             \declaretheorem[style=thmlimeborder,numbered=no,name=Solution]{boxsol}
