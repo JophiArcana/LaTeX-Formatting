@@ -176,7 +176,7 @@
 \newcommand{\sumboth}[2]{\displaystyle\sum\limits_{#1}{#2}}
 \newcommand{\prodlower}[1]{\prod_\mathrm{#1}}
 \newcommand{\prodboth}[2]{\displaystyle\prod\limits_{#1}{#2}}
-\newcommand{\lr}[1]{\left( #1 \right)}
+\newcommand{\leri}[1]{\left( #1 \right)}
 
 \newcommand{\cycprod}{\prod_\mathrm{cyc}}
 \newcommand{\symprod}{\prod_\mathrm{sym}}
