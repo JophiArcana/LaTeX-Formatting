@@ -177,6 +177,7 @@
 \newcommand{\prodlower}[1]{\displaystyle\prod\limits_\mathrm{#1}}
 \newcommand{\prodboth}[2]{\displaystyle\prod\limits_{#1}^{#2}}
 \newcommand{\leri}[1]{\left( #1 \right)}
+\newcommand{\mc}[1]{\mathcal{ #1 }}
 
 \newcommand{\cycprod}{\prod_\mathrm{cyc}}
 \newcommand{\symprod}{\prod_\mathrm{sym}}
