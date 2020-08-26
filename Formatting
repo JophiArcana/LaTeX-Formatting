@@ -205,9 +205,9 @@
 
 \newcommand{\cbrt}[1]{\sqrt[3]{#1}}
 \newcommand{\da}[0]{\measuredangle}
-\newcommand{\ans}[5]{\textbf{(A) }#1\qquad\textbf{(B) }#2\qquad\textbf{(C) }#3\qquad\textbf{(D) }#4\qquad\textbf{(E) }#5}
-\newcommand{\ans}[4]{\textbf{(A) }#1\qquad\textbf{(B) }#2\qquad\textbf{(C) }#3\qquad\textbf{(D) }#4}
-\newcommand{\ans}[3]{\textbf{(A) }#1\qquad\textbf{(B) }#2\qquad\textbf{(C) }#3}
+\newcommand{\ans5}[5]{\textbf{(A) }#1\qquad\textbf{(B) }#2\qquad\textbf{(C) }#3\qquad\textbf{(D) }#4\qquad\textbf{(E) }#5}
+\newcommand{\ans4}[4]{\textbf{(A) }#1\qquad\textbf{(B) }#2\qquad\textbf{(C) }#3\qquad\textbf{(D) }#4}
+\newcommand{\ans3}[3]{\textbf{(A) }#1\qquad\textbf{(B) }#2\qquad\textbf{(C) }#3}
 \newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
 \newcommand{\ceiling}[1]{\left\lceil #1 \right\rceil}
 \newcommand{\cycsum}{\sum_\mathrm{cyc}}
