@@ -164,18 +164,57 @@
 \definecolor{turtle}{RGB}{0,64,64}
 
 % Useful commands
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\bn}{\begin{notes}}
+\newcommand{\en}{\end{notes}}
+\newcommand{\bbp}{\begin{boxprob*}}
+\newcommand{\ebp}{\end{boxprob*}}
+\newcommand{\bp}{\begin{boxproof}}
+\newcommand{\ep}{\end{boxproof}}
+\newcommand{\bbs}{\begin{boxsol*}}
+\newcommand{\ebs}{\end{boxsol*}}
+\newcommand{\bd}{\begin{definition}}
+\newcommand{\ed}{\end{definition}}
+\newcommand{\bl}{\begin{lemma}}
+\newcommand{\el}{\end{lemma}}
+\newcommand{\be}{\begin{example}}
+\newcommand{\ee}{\end{example}}
+\newcommand{\bsa}{\begin{secalgo}}
+\newcommand{\esa}{\end{secalgo}}
+\newcommand{\bsp}{\begin{secprob}}
+\newcommand{\esp}{\end{secprob}}
+\newcommand{\ba}{\begin{algorithm}}
+\newcommand{\ea}{\end{algorithm}}
+\newcommand{\bbc}{\begin{boxclaim*}}
+\newcommand{\ebc}{\end{boxclaim*}}
+\newcommand{\bcl}{\begin{claim*}}
+\newcommand{\ecl}{\end{claim*}}
+\newcommand{\br}{\begin{remark}}
+\newcommand{\er}{\end{remark}}
+\newcommand{\bt}{\begin{theorem*}}
+\newcommand{\et}{\end{theorem*}}
+\newcommand{\bco}{\begin{corollary}}
+\newcommand{\eco}{\end{corollary}}
+\newcommand{\bpp}{\begin{proposition*}}
+\newcommand{\epp}{\end{proposition*}}
+\newcommand{\bf}{\begin{fact}}
+\newcommand{\ef}{\end{fact}}
+\newcommand{\bds}{\begin{description}}
+\newcommand{\eds}{\end{description}}
+
 \newcommand{\cbrt}[1]{\sqrt[3]{#1}}
 \newcommand{\da}[0]{\measuredangle}
 \newcommand{\ans}[5]{\textbf{(A) }#1\qquad\textbf{(B) }#2\qquad\textbf{(C) }#3\qquad\textbf{(D) }#4\qquad\textbf{(E) }#5}
+\newcommand{\ans}[4]{\textbf{(A) }#1\qquad\textbf{(B) }#2\qquad\textbf{(C) }#3\qquad\textbf{(D) }#4}
+\newcommand{\ans}[3]{\textbf{(A) }#1\qquad\textbf{(B) }#2\qquad\textbf{(C) }#3}
 \newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
 \newcommand{\ceiling}[1]{\left\lceil #1 \right\rceil}
 \newcommand{\cycsum}{\sum_\mathrm{cyc}}
 \newcommand{\symsum}{\sum_\mathrm{sym}}
 
-\newcommand{\sumlower}[1]{\displaystyle\sum\limits_{#1}}
-\newcommand{\sumboth}[2]{\displaystyle\sum\limits_{#1}^{#2}}
-\newcommand{\prodlower}[1]{\displaystyle\prod\limits_\mathrm{#1}}
-\newcommand{\prodboth}[2]{\displaystyle\prod\limits_{#1}^{#2}}
+\newcommand{\dsl}[2]{\displaystyle\sum\limits_{#1}^{#2}}
+\newcommand{\dpl}[2]{\displaystyle\prod\limits_{#1}^{#2}}
 \newcommand{\leri}[1]{\left( #1 \right)}
 \newcommand{\mc}[1]{\mathcal{ #1 }}
 
@@ -649,7 +688,8 @@
                 \declaretheorem[style=thmredbox,name=Lemma]{lemma}
             \fi
             \declaretheorem[style=thmpurplebox,numbered=no,name=Problem]{boxprob*}
-            \declaretheorem[style=thmredbox,numbered=no,name=Description]{lemma*}
+            \declaretheorem[style=thmredbox,numbered=no,name=Description]{description}
+            \declaretheorem[style=thmredbox,numbered=no,name=Remarks]{remark}
             \declaretheorem[style=thmpurpleborder,parent=section,name=Problem]{secprob}
             \declaretheorem[style=thmpurpleborder,sibling=theorem,name=Example]{example}
             \declaretheorem[style=thmlimeborder,numbered=no,name=Solution]{boxsol}
@@ -660,10 +700,9 @@
             \declaretheorem[style=thminlineorangebox,name=Claim]{claim}
             \declaretheorem[style=thminlineorangebox,numbered=no,name=Claim]{claim*}
             \declaretheorem[style=thmblackbox,numbered=no,name=Remark]{remark}
-            \declaretheorem[style=thmblackbox,numbered=no,name=Definition]{note}
+            \declaretheorem[style=thmblackbox,numbered=no,name=Definition]{definition}
+            \declaretheorem[style=thmblackbox,numbered=no,name=Notes]{note}
             \declaretheorem[style=thmblackbox,numbered=no,name=Fact]{fact}
-            \declaretheorem[style=thmpurplebox,sibling=theorem,name=Definition]{definition}
-            \declaretheorem[style=thmpurplebox,numbered=no,name=Definition]{definition*}
 
             \declaretheorem[style=thmbluebox,name=Theorem]{innercustomthm}
             \newenvironment{customthm}[1]{
