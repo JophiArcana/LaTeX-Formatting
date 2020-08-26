@@ -172,8 +172,8 @@
         \newcommand{\ebp}{\end{boxprob*}}
         \newcommand{\bp}{\begin{boxproof}}
         \newcommand{\ep}{\end{boxproof}}
-        \newcommand{\bbs}{\begin{boxsol*}}
-        \newcommand{\ebs}{\end{boxsol*}}
+        \newcommand{\bbs}{\begin{boxsol}}
+        \newcommand{\ebs}{\end{boxsol}}
         \newcommand{\bd}{\begin{definition}}
         \newcommand{\ed}{\end{definition}}
         \newcommand{\bl}{\begin{lemma}}
