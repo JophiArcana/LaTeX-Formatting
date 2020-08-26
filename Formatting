@@ -163,46 +163,7 @@
 \definecolor{denimblue}{RGB}{0,35,102}
 \definecolor{turtle}{RGB}{0,64,64}
 
-% Useful commands
-\newcommand{\bi}{\begin{itemize}}
-\newcommand{\ei}{\end{itemize}}
-\newcommand{\bn}{\begin{notes}}
-\newcommand{\en}{\end{notes}}
-\newcommand{\bbp}{\begin{boxprob*}}
-\newcommand{\ebp}{\end{boxprob*}}
-\newcommand{\bp}{\begin{boxproof}}
-\newcommand{\ep}{\end{boxproof}}
-\newcommand{\bbs}{\begin{boxsol*}}
-\newcommand{\ebs}{\end{boxsol*}}
-\newcommand{\bd}{\begin{definition}}
-\newcommand{\ed}{\end{definition}}
-\newcommand{\bl}{\begin{lemma}}
-\newcommand{\el}{\end{lemma}}
-\newcommand{\be}{\begin{example}}
-\newcommand{\ee}{\end{example}}
-\newcommand{\bsa}{\begin{secalgo}}
-\newcommand{\esa}{\end{secalgo}}
-\newcommand{\bsp}{\begin{secprob}}
-\newcommand{\esp}{\end{secprob}}
-\newcommand{\ba}{\begin{algorithm}}
-\newcommand{\ea}{\end{algorithm}}
-\newcommand{\bbc}{\begin{boxclaim*}}
-\newcommand{\ebc}{\end{boxclaim*}}
-\newcommand{\bcl}{\begin{claim*}}
-\newcommand{\ecl}{\end{claim*}}
-\newcommand{\br}{\begin{remark}}
-\newcommand{\er}{\end{remark}}
-\newcommand{\bt}{\begin{theorem*}}
-\newcommand{\et}{\end{theorem*}}
-\newcommand{\bco}{\begin{corollary}}
-\newcommand{\eco}{\end{corollary}}
-\newcommand{\bpp}{\begin{proposition*}}
-\newcommand{\epp}{\end{proposition*}}
-\newcommand{\bf}{\begin{fact}}
-\newcommand{\ef}{\end{fact}}
-\newcommand{\bds}{\begin{description}}
-\newcommand{\eds}{\end{description}}
-
+% Useful Commands
 \newcommand{\cbrt}[1]{\sqrt[3]{#1}}
 \newcommand{\da}[0]{\measuredangle}
 \newcommand{\ansfi}[5]{\textbf{(A) }#1\qquad\textbf{(B) }#2\qquad\textbf{(C) }#3\qquad\textbf{(D) }#4\qquad\textbf{(E) }#5}
@@ -803,6 +764,46 @@
         \newtheorem{example}[theorem]{Example}
         \newtheorem*{example*}{Example}
         \newtheorem*{warning}{Warning}
+
+% Useful commands
+        \newcommand{\bi}{\begin{itemize}}
+        \newcommand{\ei}{\end{itemize}}
+        \newcommand{\bn}{\begin{notes}}
+        \newcommand{\en}{\end{notes}}
+        \newcommand{\bbp}{\begin{boxprob*}}
+        \newcommand{\ebp}{\end{boxprob*}}
+        \newcommand{\bp}{\begin{boxproof}}
+        \newcommand{\ep}{\end{boxproof}}
+        \newcommand{\bbs}{\begin{boxsol*}}
+        \newcommand{\ebs}{\end{boxsol*}}
+        \newcommand{\bd}{\begin{definition}}
+        \newcommand{\ed}{\end{definition}}
+        \newcommand{\bl}{\begin{lemma}}
+        \newcommand{\el}{\end{lemma}}
+        \newcommand{\be}{\begin{example}}
+        \newcommand{\ee}{\end{example}}
+        \newcommand{\bsa}{\begin{secalgo}}
+        \newcommand{\esa}{\end{secalgo}}
+        \newcommand{\bsp}{\begin{secprob}}
+        \newcommand{\esp}{\end{secprob}}
+        \newcommand{\ba}{\begin{algorithm}}
+        \newcommand{\ea}{\end{algorithm}}
+        \newcommand{\bbc}{\begin{boxclaim*}}
+        \newcommand{\ebc}{\end{boxclaim*}}
+        \newcommand{\bcl}{\begin{claim*}}
+        \newcommand{\ecl}{\end{claim*}}
+        \newcommand{\br}{\begin{remark}}
+        \newcommand{\er}{\end{remark}}
+        \newcommand{\bt}{\begin{theorem*}}
+        \newcommand{\et}{\end{theorem*}}
+        \newcommand{\bco}{\begin{corollary}}
+        \newcommand{\eco}{\end{corollary}}
+        \newcommand{\bpp}{\begin{proposition*}}
+        \newcommand{\epp}{\end{proposition*}}
+        \newcommand{\bf}{\begin{fact}}
+        \newcommand{\ef}{\end{fact}}
+        \newcommand{\bds}{\begin{description}}
+        \newcommand{\eds}{\end{description}}
 
 % custom numbers
         \newtheorem{innercustomthm}{Theorem}
