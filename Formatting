@@ -164,44 +164,27 @@
 \definecolor{turtle}{RGB}{0,64,64}
 
 % Useful commands
-        \newcommand{\bi}{\begin{itemize}}
-        \newcommand{\ei}{\end{itemize}}
-        \newcommand{\bn}{\begin{notes}}
-        \newcommand{\en}{\end{notes}}
-        \newcommand{\bbp}{\begin{boxprob*}}
-        \newcommand{\ebp}{\end{boxprob*}}
-        \newcommand{\bp}{\begin{boxproof}}
-        \newcommand{\ep}{\end{boxproof}}
-        \newcommand{\bbs}{\begin{boxsol*}}
-        \newcommand{\ebs}{\end{boxsol*}}
-        \newcommand{\bd}{\begin{definition}}
-        \newcommand{\ed}{\end{definition}}
-        \newcommand{\bl}{\begin{lemma}}
-        \newcommand{\el}{\end{lemma}}
-        \newcommand{\be}{\begin{example}}
-        \newcommand{\ee}{\end{example}}
-        \newcommand{\bsa}{\begin{secalgo}}
-        \newcommand{\esa}{\end{secalgo}}
-        \newcommand{\bsp}{\begin{secprob}}
-        \newcommand{\esp}{\end{secprob}}
-        \newcommand{\ba}{\begin{algorithm}}
-        \newcommand{\ea}{\end{algorithm}}
-        \newcommand{\bbc}{\begin{boxclaim*}}
-        \newcommand{\ebc}{\end{boxclaim*}}
-        \newcommand{\bcl}{\begin{claim*}}
-        \newcommand{\ecl}{\end{claim*}}
-        \newcommand{\br}{\begin{remark}}
-        \newcommand{\er}{\end{remark}}
-        \newcommand{\bt}{\begin{theorem*}}
-        \newcommand{\et}{\end{theorem*}}
-        \newcommand{\bco}{\begin{corollary}}
-        \newcommand{\eco}{\end{corollary}}
-        \newcommand{\bpp}{\begin{proposition*}}
-        \newcommand{\epp}{\end{proposition*}}
-        \newcommand{\bf}{\begin{fact}}
-        \newcommand{\ef}{\end{fact}}
+        \newcommand{\list}[1]{\begin{itemize} \medbreak #1 \medbreak \end{itemize}}
+        \newcommand{\notes}[1]{\begin{notes} \medbreak #1 \medbreak \end{notes}}
+        \newcommand{\bbp}[1]{\begin{boxprob*} \medbreak #1 \medbreak \end{boxprob*}}
+        \newcommand{\proof}[1]{\begin{boxproof} \medbreak #1 \medbreak \end{boxproof}}
+        \newcommand{\bbs}[1]{\begin{boxsol*} \medbreak #1 \medbreak \end{boxsol}}
+        \newcommand{\def}[1]{\begin{definition} \medbreak #1 \medbreak \end{definition}}
+        \newcommand{\lemma}[1]{\begin{lemma} \medbreak #1 \medbreak \end{lemma}}
+        \newcommand{\example}[1]{\begin{example} \medbreak #1 \medbreak \end{example}}
+        \newcommand{\secalgo}[1]{\begin{secalgo} \medbreak #1 \medbreak \end{secalgo}}
+        \newcommand{\secprob}[1]{\begin{secprob} \medbreak #1 \medbreak \end{secprob}}
+        \newcommand{\algo}[1]{\begin{algorithm} \medbreak #1 \medbreak \end{algorithm}}
+        \newcommand{\bbc}[1]{\begin{boxclaim*} \medbreak #1 \medbreak \end{boxclaim*}}
+        \newcommand{\claim}[1]{\begin{claim*} \medbreak #1 \medbreak \end{claim*}}
+        \newcommand{\remark}[1]{\begin{remark} \medbreak #1 \medbreak \end{remark}}
+        \newcommand{\theorem}[1]{\begin{theorem*} \medbreak #1 \medbreak \end{theorem*}}
+        \newcommand{\corollary}[1]{\begin{corollary} \medbreak #1 \medbreak \end{corollary}}
+        \newcommand{\proposition}[1]{\begin{proposition*} \medbreak #1 \medbreak \end{proposition*}}
+        \newcommand{\fact}[1]{\begin{fact} \medbreak #1 \medbreak \end{fact}}
 
 % Useful Commands
+\newcommand{\mb}{\medbreak}
 \newcommand{\cbrt}[1]{\sqrt[3]{#1}}
 \newcommand{\da}[0]{\measuredangle}
 \newcommand{\ansfi}[5]{\textbf{(A) }#1\qquad\textbf{(B) }#2\qquad\textbf{(C) }#3\qquad\textbf{(D) }#4\qquad\textbf{(E) }#5}
