@@ -200,8 +200,6 @@
         \newcommand{\epp}{\end{proposition*}}
         \newcommand{\bf}{\begin{fact}}
         \newcommand{\ef}{\end{fact}}
-        \newcommand{\bds}{\begin{description}}
-        \newcommand{\eds}{\end{description}}
 
 % Useful Commands
 \newcommand{\cbrt}[1]{\sqrt[3]{#1}}
@@ -700,7 +698,6 @@
             \declaretheorem[style=thminlineorangebox,numbered=no,name=Claim]{claim*}
             \declaretheorem[style=thmblackbox,numbered=no,name=Definition]{definition}
             \declaretheorem[style=thmblackbox,numbered=no,name=Notes]{note}
-            \declaretheorem[style=thmredbox,numbered=no,name=Description]{description}
             \declaretheorem[style=thmredbox,numbered=no,name=Remarks]{remark}
             \declaretheorem[style=thmblackbox,numbered=no,name=Fact]{fact}
 
@@ -766,7 +763,6 @@
             \declaretheorem[style=thmbox,name=Claim]{claim}
             \declaretheorem[style=thmbox,numbered=no,name=Claim]{claim*}
             \declaretheorem[style=thmsmallbox,numbered=no,name=Remarks]{remark}
-            \declaretheorem[style=thmsmallbox,numbered=no,name=Description]{description}
             \declaretheorem[style=thmbox,numbered=no,name=Note]{note}
             \declaretheorem[style=thmbox,sibling=theorem,name=Definition]{definition}
             \declaretheorem[style=thmbox,numbered=no,name=Definition]{definition*}
@@ -794,7 +790,6 @@
         \newtheorem*{fact}{Fact}
         \newtheorem*{remark}{Remark}
         \newtheorem*{note}{Note}
-        \newtheorem*{description}{Description}
 
         \theoremstyle{definition}
         \newtheorem*{algorithm}{Algorithm}
