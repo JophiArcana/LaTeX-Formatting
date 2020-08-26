@@ -198,9 +198,7 @@
         \newcommand{\eco}{\end{corollary}}
         \newcommand{\bpp}{\begin{proposition*}}
         \newcommand{\epp}{\end{proposition*}}
-        \newcommand{\bf}{\begin{fact}}
-        \newcommand{\ef}{\end{fact}}
-
+        
 % Useful Commands
 \newcommand{\mb}{\medbreak}
 \newcommand{\cbrt}[1]{\sqrt[3]{#1}}
