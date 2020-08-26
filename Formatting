@@ -644,17 +644,11 @@
             \ifrollingboxprob
                 \declaretheorem[style=thmpurplebox,sibling=theorem,name=Problem]{boxprob}
                 \declaretheorem[style=thmredbox,sibling=theorem,name=Lemma]{lemma}
-                \declaretheorem[style=thmredbox,sibling=theorem,name=Description]{description}
-                \declaretheorem[style=thmredbox,sibling=theorem,name=Remarks]{remark}
             \else
                 \declaretheorem[style=thmpurplebox,name=Problem]{boxprob}
                 \declaretheorem[style=thmredbox,name=Lemma]{lemma}
-                \declaretheorem[style=thmredbox,numbered=no,name=Description]{description}
-                \declaretheorem[style=thmredbox,numbered=no,name=Remarks]{remark}
             \fi
             \declaretheorem[style=thmpurplebox,numbered=no,name=Problem]{boxprob*}
-            \declaretheorem[style=thmredbox,numbered=no,name=Description]{description}
-            \declaretheorem[style=thmredbox,numbered=no,name=Remarks]{remark}
             \declaretheorem[style=thmpurpleborder,parent=section,name=Problem]{secprob}
             \declaretheorem[style=thmpurpleborder,sibling=theorem,name=Example]{example}
             \declaretheorem[style=thmlimeborder,numbered=no,name=Solution]{boxsol}
@@ -664,9 +658,10 @@
             \declaretheorem[style=thmorangebox,numbered=no,name=Claim]{boxclaim*}
             \declaretheorem[style=thminlineorangebox,name=Claim]{claim}
             \declaretheorem[style=thminlineorangebox,numbered=no,name=Claim]{claim*}
-            \declaretheorem[style=thmblackbox,numbered=no,name=Remark]{remark}
             \declaretheorem[style=thmblackbox,numbered=no,name=Definition]{definition}
             \declaretheorem[style=thmblackbox,numbered=no,name=Notes]{note}
+            \declaretheorem[style=thmredbox,numbered=no,name=Description]{description}
+            \declaretheorem[style=thmredbox,numbered=no,name=Remarks]{remark}
             \declaretheorem[style=thmblackbox,numbered=no,name=Fact]{fact}
 
             \declaretheorem[style=thmbluebox,name=Theorem]{innercustomthm}
