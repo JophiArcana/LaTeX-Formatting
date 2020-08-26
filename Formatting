@@ -166,8 +166,8 @@
 % Useful commands
         \newcommand{\bi}{\begin{itemize}}
         \newcommand{\ei}{\end{itemize}}
-        \newcommand{\bn}{\begin{notes}}
-        \newcommand{\en}{\end{notes}}
+        \newcommand{\bn}{\begin{note}}
+        \newcommand{\en}{\end{note}}
         \newcommand{\bbp}{\begin{boxprob*}}
         \newcommand{\ebp}{\end{boxprob*}}
         \newcommand{\bp}{\begin{boxproof}}
