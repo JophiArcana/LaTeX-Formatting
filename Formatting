@@ -725,7 +725,8 @@
             \declaretheorem[style=thmbox,numbered=no,name=Claim]{boxclaim*}
             \declaretheorem[style=thmbox,name=Claim]{claim}
             \declaretheorem[style=thmbox,numbered=no,name=Claim]{claim*}
-            \declaretheorem[style=thmsmallbox,numbered=no,name=Remark]{remark}
+            \declaretheorem[style=thmsmallbox,numbered=no,name=Remarks]{remark}
+            \declaretheorem[style=thmsmallbox,numbered=no,name=Description]{description}
             \declaretheorem[style=thmbox,numbered=no,name=Note]{note}
             \declaretheorem[style=thmbox,sibling=theorem,name=Definition]{definition}
             \declaretheorem[style=thmbox,numbered=no,name=Definition]{definition*}
