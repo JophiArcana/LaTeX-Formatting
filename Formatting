@@ -202,7 +202,7 @@
 % Useful Commands
 \newcommand{\mb}{\medbreak}
 \newcommand{\bb}{\bigbreak}
-\newcommand{\sb}{\smallbreak}
+
 \newcommand{\cbrt}[1]{\sqrt[3]{#1}}
 \newcommand{\da}[0]{\measuredangle}
 \newcommand{\ansfi}[5]{\textbf{(A) }#1\qquad\textbf{(B) }#2\qquad\textbf{(C) }#3\qquad\textbf{(D) }#4\qquad\textbf{(E) }#5}
