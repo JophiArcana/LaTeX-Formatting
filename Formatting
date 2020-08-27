@@ -203,6 +203,7 @@
 \newcommand{\mb}{\medbreak}
 \newcommand{\bb}{\bigbreak}
 \newcommand{\der}[2]{\frac{d#1}{d#2}}
+\newcommand{\dert}[2]{\frac{d^2#1}{d{#2}^2}}
 
 \newcommand{\cbrt}[1]{\sqrt[3]{#1}}
 \newcommand{\da}[0]{\measuredangle}
