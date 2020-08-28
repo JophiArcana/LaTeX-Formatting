@@ -198,6 +198,7 @@
         \newcommand{\eco}{\end{corollary}}
         \newcommand{\bpp}{\begin{proposition*}}
         \newcommand{\epp}{\end{proposition*}}
+        \newcommand{\tbf}[1]{\textbf{#1}}
         
 % Useful Commands
 \newcommand{\mb}{\medbreak}
