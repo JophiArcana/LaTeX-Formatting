@@ -204,14 +204,14 @@
         \newcommand{\epp}{\end{proposition*}}
         \newcommand{\tbf}[1]{\textbf{#1}}
         
-        \newcommand{bblue}{\begin{jblue*}}
-        \newcommand{eblue}{\end{jblue*}}
-        \newcommand{bcyan}{\begin{jcyan*}}
-        \newcommand{ecyan}{\end{jcyan*}}
-        \newcommand{bpink}{\begin{jpink*}}
-        \newcommand{epink}{\end{jpink*}}
-        \newcommand{bpurple}{\begin{jpurple*}}
-        \newcommand{epurple}{\end{jpurple*}}
+        \newcommand{\bblue}{\begin{jblue*}}
+        \newcommand{\eblue}{\end{jblue*}}
+        \newcommand{\bcyan}{\begin{jcyan*}}
+        \newcommand{\ecyan}{\end{jcyan*}}
+        \newcommand{\bpink}{\begin{jpink*}}
+        \newcommand{\epink}{\end{jpink*}}
+        \newcommand{\bpurple}{\begin{jpurple*}}
+        \newcommand{\epurple}{\end{jpurple*}}
         
 % Useful Commands
 \newcommand{\mb}{\medbreak}
