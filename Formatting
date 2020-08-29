@@ -204,8 +204,8 @@
         \newcommand{\epp}{\end{proposition*}}
         \newcommand{\tbf}[1]{\textbf{#1}}
         
-        \newcommand{\bblue}[1]{\begin{style=thmjblueborder,numbered=no,name=#1}}
-        \newcommand{\eblue}[1]{\end{style=thmjblueborder,numbered=no,name=#1}}
+        \newcommand{\bblue}[2]{\declaretheorem[style=thmjblueborder,numbered=no,name=#1]{varblue},
+        \begin{varblue} #2 \end{varblue}}
         \newcommand{\bcyan}{\begin{jcyan*}}
         \newcommand{\ecyan}{\end{jcyan*}}
         \newcommand{\bpink}{\begin{jpink*}}
