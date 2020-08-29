@@ -914,6 +914,26 @@
                 \renewcommand\theinnercustomboxproof{#1}
                 \innercustomboxproof
             }{\endinnercustomboxproof}
+            
+            \declaretheorem[style=thmjblueborder,name=Solution]{innercustomboxsol}
+            \newenvironment{customboxsol}[1]{
+                \renewcommand\theinnercustomboxsol{#1}\innercustomboxsol
+            }{\endinnercustomboxsol}
+            
+            \declaretheorem[style=thmjcyanborder,name=Solution]{innercustomboxsol}
+            \newenvironment{customboxsol}[1]{
+                \renewcommand\theinnercustomboxsol{#1}\innercustomboxsol
+            }{\endinnercustomboxsol}
+            
+            \declaretheorem[style=thmjpurpleborder,name=Solution]{innercustomboxsol}
+            \newenvironment{customboxsol}[1]{
+                \renewcommand\theinnercustomboxsol{#1}\innercustomboxsol
+            }{\endinnercustomboxsol}
+            
+            \declaretheorem[style=thmjpinkborder,name=Solution]{innercustomboxsol}
+            \newenvironment{customboxsol}[1]{
+                \renewcommand\theinnercustomboxsol{#1}\innercustomboxsol
+            }{\endinnercustomboxsol}
 
             \declaretheorem[style=thmpurplebox,name=Definition]{innercustomdef}
             \newenvironment{customdef}[1]{
