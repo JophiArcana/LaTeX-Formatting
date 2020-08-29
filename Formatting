@@ -915,25 +915,25 @@
                 \innercustomboxproof
             }{\endinnercustomboxproof}
             
-            \declaretheorem[style=thmjblueborder,name=Solution]{innercustomboxsol}
-            \newenvironment{customboxsol}[1]{
-                \renewcommand\theinnercustomboxsol{#1}\innercustomboxsol
-            }{\endinnercustomboxsol}
+            \declaretheorem[style=thmjblueborder,name=Solution]{innercustomjblue*}
+            \newenvironment{customjblue*}[1]{
+                \renewcommand\theinnercustomjblue*{#1}\innercustomjblue*
+            }{\endinnercustomjblue*}
             
-            \declaretheorem[style=thmjcyanborder,name=Solution]{innercustomboxsol}
-            \newenvironment{customboxsol}[1]{
-                \renewcommand\theinnercustomboxsol{#1}\innercustomboxsol
-            }{\endinnercustomboxsol}
+            \declaretheorem[style=thmjcyanborder,name=Solution]{innercustomjcyan*}
+            \newenvironment{customjcyan*}[1]{
+                \renewcommand\theinnercustomjcyan*{#1}\innercustomjcyan*
+            }{\endinnercustomjcyan*}
             
-            \declaretheorem[style=thmjpurpleborder,name=Solution]{innercustomboxsol}
-            \newenvironment{customboxsol}[1]{
-                \renewcommand\theinnercustomboxsol{#1}\innercustomboxsol
-            }{\endinnercustomboxsol}
+            \declaretheorem[style=thmjpurpleborder,name=Solution]{innercustomjpurple*}
+            \newenvironment{customjpurple*}[1]{
+                \renewcommand\theinnercustomjpurple*{#1}\innercustomjpurple*
+            }{\endinnercustomjpurple*}
             
-            \declaretheorem[style=thmjpinkborder,name=Solution]{innercustomboxsol}
-            \newenvironment{customboxsol}[1]{
-                \renewcommand\theinnercustomboxsol{#1}\innercustomboxsol
-            }{\endinnercustomboxsol}
+            \declaretheorem[style=thmjpinkborder,name=Solution]{innercustomjpink*}
+            \newenvironment{customjpink*}[1]{
+                \renewcommand\theinnercustomjpink*{#1}\innercustomjpink*
+            }{\endinnercustomjpink*}
 
             \declaretheorem[style=thmpurplebox,name=Definition]{innercustomdef}
             \newenvironment{customdef}[1]{
