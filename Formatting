@@ -162,6 +162,10 @@
 \definecolor{astral}{RGB}{46,116,181}
 \definecolor{denimblue}{RGB}{0,35,102}
 \definecolor{turtle}{RGB}{0,64,64}
+\definecolor{jophiblue}{RGB}{201,255,251}
+\definecolor{jophicyan}{RGB}{135,255,203}
+\definecolor{jophipink}{RGB}{255,219,243}
+\definecolor{jophipurple}{RGB}{237,209,255}
 
 % Useful commands
         \newcommand{\bi}{\begin{itemize}}
@@ -199,6 +203,15 @@
         \newcommand{\bpp}{\begin{proposition*}}
         \newcommand{\epp}{\end{proposition*}}
         \newcommand{\tbf}[1]{\textbf{#1}}
+        
+        \newcommand{bblue}{\begin{blue}}
+        \newcommand{eblue}{\end{blue}}
+        \newcommand{bcyan}{\begin{cyan}}
+        \newcommand{ecyan}{\end{cyan}}
+        \newcommand{bpink}{\begin{pink}}
+        \newcommand{epink}{\end{pink}}
+        \newcommand{bpurple}{\begin{purple}}
+        \newcommand{epurple}{\end{purple}}
         
 % Useful Commands
 \newcommand{\mb}{\medbreak}
@@ -615,6 +628,7 @@
                 linecolor=Goldenrod,
                 backgroundcolor=Goldenrod!5,
             }
+            
             \declaretheoremstyle[
                 headfont=\sffamily\bfseries\color{Goldenrod!70!black},
                 bodyfont=\normalfont,
@@ -645,6 +659,174 @@
                 headpunct={\\[3pt]},
                 postheadspace={0pt},
             ]{thmlimeborder}
+            
+            \mdfdefinestyle{mdjbluebox}{%
+                skipabove=8pt,
+                linewidth=2pt,
+                rightline=false,
+                leftline=true,
+                topline=false,
+                bottomline=false,
+                linecolor=jophiblue,
+                backgroundcolor=jophiblue!5,
+            }
+            
+            \declaretheoremstyle[
+                headfont=\sffamily\bfseries\color{jophiblue!70!black},
+                bodyfont=\normalfont,
+                spaceabove=2pt,
+                spacebelow=1pt,
+                mdframed={style=mdbox},
+                %headpunct={ --- },
+                headpunct={\\[3pt]},
+            ]{thmjbluebox}
+
+            \mdfdefinestyle{mdjblueborder}{%
+                linewidth=0.5pt,
+                skipabove=12pt,
+                frametitleaboveskip=5pt,
+                frametitlebelowskip=0pt,
+                skipbelow=2pt,
+                frametitlefont=\bfseries,
+                innertopmargin=4pt,
+                innerbottommargin=8pt,
+                %                nobreak=true,
+                backgroundcolor=jophiblue!5,
+                linecolor=jophiblue,
+            }
+            
+            \declaretheoremstyle[
+                headfont=\bfseries\color{jophiblue!70!black},
+                mdframed={style=mdjblueborder},
+                headpunct={\\[3pt]},
+                postheadspace={0pt},
+            ]{thmjblueborder}
+            
+            \mdfdefinestyle{mdjcyanbox}{%
+                skipabove=8pt,
+                linewidth=2pt,
+                rightline=false,
+                leftline=true,
+                topline=false,
+                bottomline=false,
+                linecolor=jophicyan,
+                backgroundcolor=jophicyan!5,
+            }
+            
+            \declaretheoremstyle[
+                headfont=\sffamily\bfseries\color{jophicyan!70!black},
+                bodyfont=\normalfont,
+                spaceabove=2pt,
+                spacebelow=1pt,
+                mdframed={style=mdbox},
+                %headpunct={ --- },
+                headpunct={\\[3pt]},
+            ]{thmjcyanbox}
+
+            \mdfdefinestyle{mdjcyanborder}{%
+                linewidth=0.5pt,
+                skipabove=12pt,
+                frametitleaboveskip=5pt,
+                frametitlebelowskip=0pt,
+                skipbelow=2pt,
+                frametitlefont=\bfseries,
+                innertopmargin=4pt,
+                innerbottommargin=8pt,
+                %                nobreak=true,
+                backgroundcolor=jophicyan!5,
+                linecolor=jophicyan,
+            }
+            
+            \declaretheoremstyle[
+                headfont=\bfseries\color{jophicyan!70!black},
+                mdframed={style=mdjcyanborder},
+                headpunct={\\[3pt]},
+                postheadspace={0pt},
+            ]{thmjcyanborder}
+            
+            \mdfdefinestyle{mdjpinkbox}{%
+                skipabove=8pt,
+                linewidth=2pt,
+                rightline=false,
+                leftline=true,
+                topline=false,
+                bottomline=false,
+                linecolor=jophipink,
+                backgroundcolor=jophipink!5,
+            }
+            
+            \declaretheoremstyle[
+                headfont=\sffamily\bfseries\color{jophipink!70!black},
+                bodyfont=\normalfont,
+                spaceabove=2pt,
+                spacebelow=1pt,
+                mdframed={style=mdbox},
+                %headpunct={ --- },
+                headpunct={\\[3pt]},
+            ]{thmjbluebox}
+
+            \mdfdefinestyle{mdjpinkborder}{%
+                linewidth=0.5pt,
+                skipabove=12pt,
+                frametitleaboveskip=5pt,
+                frametitlebelowskip=0pt,
+                skipbelow=2pt,
+                frametitlefont=\bfseries,
+                innertopmargin=4pt,
+                innerbottommargin=8pt,
+                %                nobreak=true,
+                backgroundcolor=jophipink!5,
+                linecolor=jophipink,
+            }
+            
+            \declaretheoremstyle[
+                headfont=\bfseries\color{jophipink!70!black},
+                mdframed={style=mdjpinkborder},
+                headpunct={\\[3pt]},
+                postheadspace={0pt},
+            ]{thmjpinkborder}
+            
+            \mdfdefinestyle{mdjpurplebox}{%
+                skipabove=8pt,
+                linewidth=2pt,
+                rightline=false,
+                leftline=true,
+                topline=false,
+                bottomline=false,
+                linecolor=jophipurple,
+                backgroundcolor=jophipurple!5,
+            }
+            
+            \declaretheoremstyle[
+                headfont=\sffamily\bfseries\color{jophipurple!70!black},
+                bodyfont=\normalfont,
+                spaceabove=2pt,
+                spacebelow=1pt,
+                mdframed={style=mdbox},
+                %headpunct={ --- },
+                headpunct={\\[3pt]},
+            ]{thmjpurplebox}
+
+            \mdfdefinestyle{mdjpurpleborder}{%
+                linewidth=0.5pt,
+                skipabove=12pt,
+                frametitleaboveskip=5pt,
+                frametitlebelowskip=0pt,
+                skipbelow=2pt,
+                frametitlefont=\bfseries,
+                innertopmargin=4pt,
+                innerbottommargin=8pt,
+                %                nobreak=true,
+                backgroundcolor=jophipurple!5,
+                linecolor=jophipurple,
+            }
+            
+            \declaretheoremstyle[
+                headfont=\bfseries\color{jophipurple!70!black},
+                mdframed={style=mdjpurpleborder},
+                headpunct={\\[3pt]},
+                postheadspace={0pt},
+            ]{thmjpurpleborder}
 
             \mdfdefinestyle{mdblackbox}{%
                 skipabove=8pt,
@@ -704,6 +886,11 @@
             \declaretheorem[style=thmblackbox,numbered=no,name=Notes]{note}
             \declaretheorem[style=thmredbox,numbered=no,name=Remarks]{remark}
             \declaretheorem[style=thmblackbox,numbered=no,name=Fact]{fact}
+            
+            \declaretheorem[style=thmjblueborder,numbered=no,name=Response]{blue}
+            \declaretheorem[style=thmjpinkborder,numbered=no,name=Response]{pink}
+            \declaretheorem[style=thmjcyanborder,numbered=no,name=Response]{cyan}
+            \declaretheorem[style=thmjpurpleborder,numbered=no,name=Response]{purple}
 
             \declaretheorem[style=thmbluebox,name=Theorem]{innercustomthm}
             \newenvironment{customthm}[1]{
