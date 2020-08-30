@@ -978,10 +978,10 @@
             \declaretheorem[style=thmbox,sibling=theorem,name=Definition]{definition}
             \declaretheorem[style=thmbox,numbered=no,name=Definition]{definition*}
             
-            \declaretheorem[style=thmbox,numbered=no,name=Response]{jblue*}
+            \declaretheorem[style=thmbox,numbered=no,name=Lemma]{jblue*}
             \declaretheorem[style=thmbox,numbered=no,name=Response]{jcyan*}
             \declaretheorem[style=thmbox,numbered=no,name=Response]{jpink*}
-            \declaretheorem[style=thmbox,numbered=no,name=Response]{jpurple*}
+            \declaretheorem[style=thmbox,numbered=no,name=Proof]{jpurple*}
         \fi
     %%fakesection STANDARD THEOREMS
     \else
