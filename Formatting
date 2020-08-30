@@ -887,10 +887,10 @@
             \declaretheorem[style=thmredbox,numbered=no,name=Remarks]{remark}
             \declaretheorem[style=thmblackbox,numbered=no,name=Fact]{fact}
             
-            \declaretheorem[style=thmjblueborder,numbered=no,name=Response]{jblue*}
-            \declaretheorem[style=thmjpinkborder,numbered=no,name=Response]{jpink*}
+            \declaretheorem[style=thmjblueborder,numbered=no,name=Lemmma]{jblue*}
+            \declaretheorem[style=thmjpinkborder,numbered=no,name=Description]{jpink*}
             \declaretheorem[style=thmjcyanborder,numbered=no,name=Response]{jcyan*}
-            \declaretheorem[style=thmjpurpleborder,numbered=no,name=Response]{jpurple*}
+            \declaretheorem[style=thmjpurpleborder,numbered=no,name=Proof]{jpurple*}
 
             \declaretheorem[style=thmbluebox,name=Theorem]{innercustomthm}
             \newenvironment{customthm}[1]{
