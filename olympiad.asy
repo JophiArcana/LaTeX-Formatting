@@ -174,45 +174,9 @@ bool collinear(pair A, pair B, pair C)
 // Chemistry
 ///////////////////////////////////////////
 
-void lewis(pair a, string s, int p0, int p1, int p2, int p3)
+void lewis(pair a, string s)
 {
   label(s, a);
-  if(p0 == 1)
-  {
-    dot(s + (0.4, 0), 2bp + black);
-  }
-  if(p0 == 2)
-  {
-    dot(s + (0.4, -0.1), 2bp + black);
-    dot(s + (0.4, 0.1), 2bp + black);
-  }
-  if(p1 == 1)
-  {
-    dot(s + (0, 0.4), 2bp + black);
-  }
-  if(p1 == 2)
-  {
-    dot(s + (0.1, 0.4), 2bp + black);
-    dot(s + (-0.1, 0.4), 2bp + black);
-  }
-  if(p2 == 1)
-  {
-    dot(s + (-0.4, 0), 2bp + black);
-  }
-  if(p2 == 2)
-  {
-    dot(s + (-0.4, 0.1), 2bp + black);
-    dot(s - (-0.4, -0.1), 2bp + black);
-  }
-  if(p3 == 1)
-  {
-    dot(s + (0, -0.4), 2bp + black);
-  }
-  if(p3 == 2)
-  {
-    dot(s + (-0.1, -0.4), 2bp + black);
-    dot(s - (0.1, -0.4), 2bp + black);
-  }
 }
 
 ///////////////////////////////////////////
