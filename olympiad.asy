@@ -174,7 +174,7 @@ bool collinear(pair A, pair B, pair C)
 // Chemistry
 ///////////////////////////////////////////
 
-void lewis(pair a, String s, int p0, int p1, int p2, int p3)
+void lewis(pair a, string s, int p0, int p1, int p2, int p3)
 {
   label(s, a);
   if(p0 == 1)
@@ -213,24 +213,6 @@ void lewis(pair a, String s, int p0, int p1, int p2, int p3)
     dot(s + (-0.1, -0.4), 2bp + black);
     dot(s - (0.1, -0.4), 2bp + black);
   }
-}
-
-void sbond(pair a, int d)
-{
-  draw((s + 0.4 * dir(90 * d)) -- (s + 0.6 * dir(90 * d)));
-}
-
-void dbond(pair a, int d)
-{
-  draw((s + (0.4, 0.05) * dir(90 * d)) -- (s + (0.6, 0.05) * dir(90 * d)));
-  draw((s + (0.4, -0.05) * dir(90 * d)) -- (s + (0.6, -0.05) * dir(90 * d)));
-}
-
-void tbond(pair a, int d)
-{
-  draw((s + (0.4, 0.1) * dir(90 * d)) -- (s + (0.6, 0.1) * dir(90 * d)));
-  draw((s + (0.4, 0) * dir(90 * d)) -- (s + (0.6, 0) * dir(90 * d)));
-  draw((s + (0.4, -0.1) * dir(90 * d)) -- (s + (0.6, -0.1) * dir(90 * d)));
 }
 
 ///////////////////////////////////////////
