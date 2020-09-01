@@ -162,10 +162,10 @@
 \definecolor{astral}{RGB}{46,116,181}
 \definecolor{denimblue}{RGB}{0,35,102}
 \definecolor{turtle}{RGB}{0,64,64}
-\definecolor{jophiblue}{RGB}{201,255,251}
-\definecolor{jophicyan}{RGB}{135,255,203}
+\definecolor{jophiblue}{RGB}{25,255,205}
+\definecolor{jophicyan}{RGB}{79,232,255}
 \definecolor{jophipink}{RGB}{255,219,243}
-\definecolor{jophipurple}{RGB}{237,209,255}
+\definecolor{jophipurple}{RGB}{255,156,174}
 
 % Useful commands
         \newcommand{\bi}{\begin{itemize}}
@@ -887,8 +887,8 @@
             \declaretheorem[style=thmredbox,numbered=no,name=Remarks]{remark}
             \declaretheorem[style=thmblackbox,numbered=no,name=Fact]{fact}
             
-            \declaretheorem[style=thmjblueborder,numbered=no,name=Lemma]{jblue*}
-            \declaretheorem[style=thmjpinkborder,numbered=no,name=Description]{jpink*}
+            \declaretheorem[style=thmjblueborder,numbered=no,name=Solution]{jblue*}
+            \declaretheorem[style=thmjpinkborder,numbered=no,name=Question]{jpink*}
             \declaretheorem[style=thmjcyanborder,numbered=no,name=Response]{jcyan*}
             \declaretheorem[style=thmjpurpleborder,numbered=no,name=Proof]{jpurple*}
 
