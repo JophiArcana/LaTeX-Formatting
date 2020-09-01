@@ -980,7 +980,7 @@
             
             \declaretheorem[style=thmbox,numbered=no,name=Lemma]{jblue*}
             \declaretheorem[style=thmbox,numbered=no,name=Response]{jcyan*}
-            \declaretheorem[style=thmbox,numbered=no,name=Response]{jpink*}
+            \declaretheorem[style=thmbox,numbered=no,name=Question]{jpink*}
             \declaretheorem[style=thmbox,numbered=no,name=Proof]{jpurple*}
         \fi
     %%fakesection STANDARD THEOREMS
