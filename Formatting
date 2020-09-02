@@ -222,6 +222,7 @@
 \newcommand{\vect}[1]{\left\langle #1 \right\rangle}
 \newcommand{\proj}[2]{\text{proj}_\mathbf{#1}\mathbf{#2}}
 \newcommand{\comp}[2]{\text{comp}_\mathbf{#1}\mathbf{#2}}
+\newcommand{\ora}[1]{\overrightarrow{#1}}
 
 \newcommand{\cbrt}[1]{\sqrt[3]{#1}}
 \newcommand{\da}[0]{\measuredangle}
