@@ -220,6 +220,8 @@
 \newcommand{\der}[2]{\frac{d#1}{d#2}}
 \newcommand{\dert}[2]{\frac{d^2#1}{d{#2}^2}}
 \newcommand{\vect}[1]{\left\langle #1 \right\rangle}
+\newcommand{\proj}[2]{\text{proj}_\mathbf{#1}\mathbf{#2}}
+\newcommand{\comp}[2]{\text{comp}_\mathbf{#1}\mathbf{#2}}
 
 \newcommand{\cbrt}[1]{\sqrt[3]{#1}}
 \newcommand{\da}[0]{\measuredangle}
