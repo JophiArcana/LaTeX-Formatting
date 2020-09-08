@@ -224,6 +224,7 @@
 \newcommand{\comp}[2]{\text{comp}_\mathbf{#1}\mathbf{#2}}
 \newcommand{\ora}[1]{\overrightarrow{#1}}
 \newcommand{\dmt}[1]{\begin{vmatrix} #1 \end{vmatrix}}
+\newcommand{\lvc}[2]{\lim_{#1 \to #2}}
 
 \newcommand{\cbrt}[1]{\sqrt[3]{#1}}
 \newcommand{\da}[0]{\measuredangle}
