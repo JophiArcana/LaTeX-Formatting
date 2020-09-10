@@ -164,7 +164,7 @@
 \definecolor{turtle}{RGB}{0,64,64}
 \definecolor{jophiblue}{RGB}{25,255,205}
 \definecolor{jophicyan}{RGB}{79,232,255}
-\definecolor{jophipink}{RGB}{255,219,243}
+\definecolor{jophipink}{RGB}{255,89,122}
 \definecolor{jophipurple}{RGB}{255,156,174}
 
 % Useful commands
