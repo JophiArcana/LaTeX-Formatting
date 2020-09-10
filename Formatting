@@ -219,6 +219,9 @@
 \newcommand{\bb}{\bigbreak}
 \newcommand{\der}[2]{\frac{d#1}{d#2}}
 \newcommand{\dert}[2]{\frac{d^2#1}{d{#2}^2}}
+\newcommand{\pd}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\pdt}[2]{\frac{\partial^2 #1}{\partial {#2}^2}}
+\newcommand{\De}{\Delta}
 \newcommand{\vect}[1]{\left\langle #1 \right\rangle}
 \newcommand{\proj}[2]{\text{proj}_\mathbf{#1}\mathbf{#2}}
 \newcommand{\comp}[2]{\text{comp}_\mathbf{#1}\mathbf{#2}}
