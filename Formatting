@@ -219,7 +219,6 @@
 \newcommand{\bb}{\bigbreak}
 \newcommand{\der}[2]{\frac{d#1}{d#2}}
 \newcommand{\dert}[2]{\frac{d^2#1}{d{#2}^2}}
-\newcommand{\dd}[1]{\ddot{#1}}
 \newcommand{\pd}[2]{\frac{\partial #1}{\partial #2}}
 \newcommand{\pdt}[2]{\frac{\partial^2 #1}{\partial {#2}^2}}
 \newcommand{\De}{\Delta}
