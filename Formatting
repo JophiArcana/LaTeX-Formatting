@@ -222,7 +222,7 @@
 \newcommand{\pd}[2]{\frac{\partial #1}{\partial #2}}
 \newcommand{\pdt}[2]{\frac{\partial^2 #1}{\partial {#2}^2}}
 \newcommand{\De}{\Delta}
-\newcommand{\Nb}{\Nabla}
+\newcommand{\Nb}{\nabla}
 \newcommand{\vect}[1]{\left\langle #1 \right\rangle}
 \newcommand{\proj}[2]{\text{proj}_\mathbf{#1}\mathbf{#2}}
 \newcommand{\comp}[2]{\text{comp}_\mathbf{#1}\mathbf{#2}}
