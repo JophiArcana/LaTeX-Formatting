@@ -165,7 +165,7 @@
 \definecolor{jophiblue}{RGB}{25,255,205}
 \definecolor{jophicyan}{RGB}{79,232,255}
 \definecolor{jophipink}{RGB}{255,89,122}
-\definecolor{jophipurple}{RGB}{255,156,174}
+\definecolor{jophipurple}{RGB}{159,107,255}
 
 % Useful commands
         \newcommand{\bi}{\begin{itemize}}
