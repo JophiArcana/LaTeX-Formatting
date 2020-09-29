@@ -901,7 +901,7 @@
             
             \declaretheorem[style=thmjblueborder,numbered=no,name=Solution]{jblue*}
             \declaretheorem[style=thmjpinkborder,numbered=no,name=Question]{jpink*}
-            \declaretheorem[style=thmjcyanborder,numbered=no,name=Response]{jcyan*}
+            \declaretheorem[style=thmjcyanborder,numbered=no,name=Notes]{jcyan*}
             \declaretheorem[style=thmjpurpleborder,numbered=no,name=Solution]{jpurple*}
 
             \declaretheorem[style=thmbluebox,name=Theorem]{innercustomthm}
