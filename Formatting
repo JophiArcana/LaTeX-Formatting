@@ -243,6 +243,7 @@
 \newcommand{\dsl}[2]{\displaystyle\sum\limits_{#1}^{#2}}
 \newcommand{\dpl}[2]{\displaystyle\prod\limits_{#1}^{#2}}
 \newcommand{\leri}[1]{\left( #1 \right)}
+\newcommand{\brac}[1]{\left[ #1 \right]}
 \newcommand{\mc}[1]{\mathcal{ #1 }}
 
 \newcommand{\cycprod}{\prod_\mathrm{cyc}}
