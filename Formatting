@@ -223,7 +223,6 @@
 \newcommand{\pdt}[2]{\frac{\partial^2 #1}{\partial {#2}^2}}
 \newcommand{\De}{\Delta}
 \newcommand{\Nb}{\nabla}
-\newcommand{\th}{\theta}
 \newcommand{\aq}[1]{#1_{(aq)}}
 \newcommand{\gas}[1]{#1_{(g)}}
 \newcommand{\liq}[1]{#1_{(l)}}
