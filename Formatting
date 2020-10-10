@@ -223,6 +223,11 @@
 \newcommand{\pdt}[2]{\frac{\partial^2 #1}{\partial {#2}^2}}
 \newcommand{\De}{\Delta}
 \newcommand{\Nb}{\nabla}
+\newcommand{\th}{\theta}
+\newcommand{\aq}[1]{#1_{(aq)}}
+\newcommand{\gas}[1]{#1_{(g)}}
+\newcommand{\liq}[1]{#1_{(l)}}
+\newcommand{\sol}[1]{#1_{(s)}}
 \newcommand{\vect}[1]{\left\langle #1 \right\rangle}
 \newcommand{\proj}[2]{\text{proj}_\mathbf{#1}\mathbf{#2}}
 \newcommand{\comp}[2]{\text{comp}_\mathbf{#1}\mathbf{#2}}
