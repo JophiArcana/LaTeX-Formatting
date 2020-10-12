@@ -223,16 +223,17 @@
 \newcommand{\pdt}[2]{\frac{\partial^2 #1}{\partial {#2}^2}}
 \newcommand{\De}{\Delta}
 \newcommand{\Nb}{\nabla}
-\newcommand{\aq}[1]{#1_{(aq)}}
-\newcommand{\gas}[1]{#1_{(g)}}
-\newcommand{\liq}[1]{#1_{(l)}}
-\newcommand{\sol}[1]{#1_{(s)}}
+\newcommand{\aq}[2]{#1_{#2 (aq)}}
+\newcommand{\gas}[2]{#1_{#2 (g)}}
+\newcommand{\liq}[2]{#1_{#2 (l)}}
+\newcommand{\sol}[2]{#1_{#2 (s)}}
 \newcommand{\vect}[1]{\left\langle #1 \right\rangle}
 \newcommand{\proj}[2]{\text{proj}_\mathbf{#1}\mathbf{#2}}
 \newcommand{\comp}[2]{\text{comp}_\mathbf{#1}\mathbf{#2}}
 \newcommand{\ora}[1]{\overrightarrow{#1}}
 \newcommand{\dmt}[1]{\begin{vmatrix} #1 \end{vmatrix}}
 \newcommand{\dl}[2]{\displaystyle\lim_{#1 \to #2}}
+\newcommand{\rlh}{\rightleftharpoons}
 
 \newcommand{\cbrt}[1]{\sqrt[3]{#1}}
 \newcommand{\da}[0]{\measuredangle}
