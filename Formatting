@@ -244,8 +244,8 @@
 \newcommand{\ansth}[3]{\textbf{(A) }#1\qquad\textbf{(B) }#2\qquad\textbf{(C) }#3}
 \newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
 \newcommand{\ceiling}[1]{\left\lceil #1 \right\rceil}
-\newcommand{\cycsum}{\sum_\mathrm{cyc}}
-\newcommand{\symsum}{\sum_\mathrm{sym}}
+\newcommand{\cycs}{\displaystyle\sum_\mathrm{cyc}}
+\newcommand{\syms}{\displaystyle\sum_\mathrm{sym}}
 
 \newcommand{\dsl}[2]{\displaystyle\sum\limits_{#1}^{#2}}
 \newcommand{\dpl}[2]{\displaystyle\prod\limits_{#1}^{#2}}
