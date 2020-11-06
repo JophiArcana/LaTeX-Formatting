@@ -217,6 +217,7 @@
 % Useful Commands
 \newcommand{\mb}{\medbreak}
 \newcommand{\bb}{\bigbreak}
+\newcommand{\slp}[1]{\setlength\parindent{#1pt}}
 \newcommand{\der}[2]{\frac{d#1}{d#2}}
 \newcommand{\dert}[2]{\frac{d^2#1}{d{#2}^2}}
 \newcommand{\pd}[2]{\frac{\partial #1}{\partial #2}}
@@ -236,6 +237,9 @@
 \newcommand{\dmt}[1]{\begin{vmatrix} #1 \end{vmatrix}}
 \newcommand{\dl}[2]{\displaystyle\lim_{#1 \to #2}}
 \newcommand{\rlh}{\rightleftharpoons}
+\newcommand{\lra}{\leftrightarrow}
+\newcommand{\dive}[1]{\text{div}\,\mathbf{#1}}
+\newcommand{\curl}[1]{\text{curl}\,\mathbf{#1}}
 
 \newcommand{\cbrt}[1]{\sqrt[3]{#1}}
 \newcommand{\da}[0]{\measuredangle}
