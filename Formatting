@@ -188,8 +188,8 @@
         \newcommand{\esa}{\end{secalgo}}
         \newcommand{\bsp}{\begin{secprob}}
         \newcommand{\esp}{\end{secprob}}
-        \newcommand{\ba}{\begin{algorithm}}
-        \newcommand{\ea}{\end{algorithm}}
+        % \newcommand{\ba}{\begin{algorithm}}
+        % \newcommand{\ea}{\end{algorithm}}
         \newcommand{\bbc}{\begin{boxclaim*}}
         \newcommand{\ebc}{\end{boxclaim*}}
         \newcommand{\bcl}{\begin{claim*}}
@@ -887,9 +887,9 @@
             \declaretheorem[style=thmbluebox,sibling=theorem,name=Proposition]{proposition}
             \declaretheorem[style=thmbluebox,numbered=no,name=Proposition]{proposition*}
             \declaretheorem[style=thminlinebluebox,numbered=no,name=\$]{shell}
-            \declaretheorem[style=thmbluebox,sibling=theorem,name=Algorithm]{algorithm}
-            \declaretheorem[style=thmbluebox,numbered=no,name=Algorithm]{algorithm*}
-            \declaretheorem[style=thmbluebox,parent=section,name=Algorithm]{secalgo}
+            % \declaretheorem[style=thmbluebox,sibling=theorem,name=Algorithm]{algorithm}
+            % \declaretheorem[style=thmbluebox,numbered=no,name=Algorithm]{algorithm*}
+            % \declaretheorem[style=thmbluebox,parent=section,name=Algorithm]{secalgo}
             \ifrollingboxprob
                 \declaretheorem[style=thmpurplebox,sibling=theorem,name=Problem]{boxprob}
                 \declaretheorem[style=thmredbox,sibling=theorem,name=Lemma]{lemma}
@@ -1033,7 +1033,7 @@
         \newtheorem*{note}{Note}
 
         \theoremstyle{definition}
-        \newtheorem*{algorithm}{Algorithm}
+        % \newtheorem*{algorithm}{Algorithm}
         \newtheorem{definition}[theorem]{Definition}
         \newtheorem*{definition*}{Definition}
         \newtheorem{claim}{Claim}
