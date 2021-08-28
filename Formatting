@@ -142,10 +142,6 @@
 \usepackage[final]{pdfpages} % Inserting PDF's
 \usepackage{siunitx} % SI Units
 \usepackage[framemethod=TikZ]{mdframed} % MDFramed
-\ifdocisbeamer\else
-% enum customization; breaks beamer
-    \usepackage{enumitem} 
-\fi
 \usepackage{mathtools} % Math tools
 \usepackage{epigraph} % Quotes!
 \usepackage{hyperref} % Referrences
