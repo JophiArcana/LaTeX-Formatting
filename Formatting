@@ -194,7 +194,7 @@
         \newcommand{\ebc}{\end{boxclaim*}}
         \newcommand{\bcl}{\begin{claim*}}
         \newcommand{\ecl}{\end{claim*}}
-        \newcommand{\br}{\begin{remark}}
+        % \newcommand{\br}{\begin{remark}}
         \newcommand{\er}{\end{remark}}
         \newcommand{\bt}{\begin{theorem*}}
         \newcommand{\et}{\end{theorem*}}
@@ -203,7 +203,7 @@
         \newcommand{\bpp}{\begin{proposition*}}
         \newcommand{\epp}{\end{proposition*}}
         \newcommand{\tbf}[1]{\textbf{#1}}
-        \newcommand{\mbf}[1]{\mathbf{#1}}
+        % \newcommand{\mbf}[1]{\mathbf{#1}}
         
         \newcommand{\bblue}{\begin{jblue*}}
         \newcommand{\eblue}{\end{jblue*}}
@@ -232,12 +232,11 @@
 \newcommand{\sol}[2]{#1_{#2 (s)}}
 \newcommand{\vect}[1]{\left\langle #1 \right\rangle}
 \newcommand{\proj}[2]{\text{proj}_\mathbf{#1}\mathbf{#2}}
-\newcommand{\comp}[2]{\text{comp}_\mathbf{#1}\mathbf{#2}}
+% \newcommand{\comp}[2]{\text{comp}_\mathbf{#1}\mathbf{#2}}
 \newcommand{\ora}[1]{\overrightarrow{#1}}
 \newcommand{\dmt}[1]{\begin{vmatrix} #1 \end{vmatrix}}
 \newcommand{\dl}[2]{\displaystyle\lim_{#1 \to #2}}
 \newcommand{\rlh}{\rightleftharpoons}
-\newcommand{\lra}{\leftrightarrow}
 \newcommand{\dive}[1]{\text{div}\,\mathbf{#1}}
 \newcommand{\curl}[1]{\text{curl}\,\mathbf{#1}}
 
@@ -257,11 +256,11 @@
 \newcommand{\dso}[2]{\displaystyle\oint_{#1}^{#2}}
 \newcommand{\paren}[1]{\left( #1 \right)}
 \newcommand{\brac}[1]{\left[ #1 \right]}
-\newcommand{\mc}[1]{\mathcal{ #1 }}
+% \newcommand{\mc}[1]{\mathcal{ #1 }}
 
 \newcommand{\cycprod}{\prod_\mathrm{cyc}}
 \newcommand{\symprod}{\prod_\mathrm{sym}}
-\newcommand{\abs}[1]{\left\lvert #1 \right\rvert}
+% \newcommand{\abs}[1]{\left\lvert #1 \right\rvert}
 \newcommand{\norm}[1]{\left\lVert #1 \right\rVert}
 \newcommand{\ray}[1]{\overrightarrow{#1}} 
 \newcommand{\seg}[1]{\overline{#1}}
@@ -301,7 +300,7 @@
     \begin{mdframed}[linecolor=purple!70!black]%
     \bfseries\color{purple!70!black}}%
 {\end{mdframed}}
-\DeclareMathOperator{\lcm}{lcm}
+% \DeclareMathOperator{\lcm}{lcm}
 \DeclareMathOperator{\cis}{cis}
 \DeclareMathOperator{\ord}{ord}
 \DeclareMathOperator{\pow}{Pow}
@@ -1062,8 +1061,8 @@
     }{\end{proof}}
 
     \theoremstyle{definition}
-    \newtheorem{exercise}[theorem]{Exercise}
-    \newtheorem*{exercise*}{Exercise}
+    % \newtheorem{exercise}[theorem]{Exercise}
+    % \newtheorem*{exercise*}{Exercise}
     \newtheorem{challenge}[theorem]{Challenge}
     \newtheorem*{challenge*}{Challenge}
     \newtheorem*{walkthrough}{Walkthrough}
