@@ -245,8 +245,8 @@
 \newcommand{\ansfi}[5]{\textbf{(A) }#1\qquad\textbf{(B) }#2\qquad\textbf{(C) }#3\qquad\textbf{(D) }#4\qquad\textbf{(E) }#5}
 \newcommand{\ansfo}[4]{\textbf{(A) }#1\qquad\textbf{(B) }#2\qquad\textbf{(C) }#3\qquad\textbf{(D) }#4}
 \newcommand{\ansth}[3]{\textbf{(A) }#1\qquad\textbf{(B) }#2\qquad\textbf{(C) }#3}
-\newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
-\newcommand{\ceiling}[1]{\left\lceil #1 \right\rceil}
+% \newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
+% \newcommand{\ceiling}[1]{\left\lceil #1 \right\rceil}
 \newcommand{\cycs}{\displaystyle\sum_\mathrm{cyc}}
 \newcommand{\syms}{\displaystyle\sum_\mathrm{sym}}
 
@@ -977,8 +977,8 @@
             \declaretheorem[style=thmbox,sibling=theorem,name=Proposition]{proposition}
             \declaretheorem[style=thmbox,numbered=no,name=Proposition]{proposition*}
             \declaretheorem[style=thmbox,numbered=no,name=\$]{shell}
-            \declaretheorem[style=thmbox,sibling=theorem,name=Algorithm]{algorithm}
-            \declaretheorem[style=thmbox,numbered=no,name=Algorithm]{algorithm*}
+            % \declaretheorem[style=thmbox,sibling=theorem,name=Algorithm]{algorithm}
+            % \declaretheorem[style=thmbox,numbered=no,name=Algorithm]{algorithm*}
             \declaretheorem[style=thmbox,parent=section,name=Algorithm]{secalgo}
             \ifrollingboxprob
                 \declaretheorem[style=thmbox,sibling=theorem,name=Problem]{boxprob}
